@@ -4,14 +4,14 @@ The codes are for comparing the estimation performance of l1 minimization withou
 
 If you use the whole codes or part of them, please cite the paper:
 ```
-@proceeding{Yu2020false1,
+@proceeding{Yu2020resilient,
   author={Zheng, Yu and Anubi, Olugbenga Moses},
   title= "{Resilient Pruning Observer Design for Cyber-Physical Systems under False Data Injection Attacks}",
   series = {},
   volume={},
   number={},
   pages={},
-  year={},
+  year={2020},
   publisher={}
 }
 ```
