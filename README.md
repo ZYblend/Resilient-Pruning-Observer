@@ -34,8 +34,12 @@ Weighted L1-minimization with pruning algorithm based on oracle
 
 # Support functions:
 (4) L1_noprior_solver.m               (original l1-minimization solver) <br />
-(5) Weighted_L1_solver.m               (weighted l1-minimization solver)<br />
+(5) Weighted_L1_solver.m              (weighted l1-minimization solver)<br />
 (6) sysGen.m                          (generate full observable (A,C))<br />
 (7) gen_attack_channel.m              (FDIA generator)<br />
 (8) pruning_algorithm.m               (pruning algorithm)
 
+# Small support functions:
+(9) CDF_inv.m                          (generate agreement probability satisfying ROC)<br />
+(10) pmf_PB.m                          (calculate pmf of Poisson-binomial distribution)<br />
+(11) reliable_num_attacks.m            (for first step in pruning algorithm)
