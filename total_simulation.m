@@ -16,14 +16,11 @@ m = 2*n;                                        % number of measurements
 [m_grid,n_grid] = meshgrid(m,n);
 m_grid_new = max(n_grid+1,m_grid);
 
-
-
-
 Pa = 0.6;                                  % attack percentage
 T_points = 3;                              % number of Tr
 % Tr = Pa*linspace(1.1,1.5,T_points);      % agreement percentage
                                            % please make Tr > Pa
-Tr = linspace(0.3,0.6,T_points);
+Tr = linspace(0.6,0.8,T_points);
                                          
 R1 = zeros(1,n_points^2);
 R2 = zeros(T_points,n_points^2);                              % with oracle

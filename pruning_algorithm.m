@@ -12,6 +12,7 @@ function q_eta_hat = pruning_algorithm(q,Tr)
 %              q_eta_hat: {N-by-1] pruning indicator
 %   parameters:
 %              eta: (0,1) reliability
+%
 % @Written by Yu Zheng, Tallahassee, Florida, Aug. 2020
 
 N = length(q);
