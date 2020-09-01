@@ -2,7 +2,7 @@
 
 P_points = 100;                            % number of Pa
 Pa2 = linspace(0,1,P_points);
-n = 128;
+n = 56;
 m = 2*n;
 % Tr = 1.1*Pa2;
 % if Tr >1
