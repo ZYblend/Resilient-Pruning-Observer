@@ -1,6 +1,11 @@
 # Introduction
-The codes are for comparing the estimation performance of l1 minimization without prior, weighted l1 minimization with oracle, weighted l1 minimization with Pruning:
-**Resilient Pruning Observer Design for Cyber-Physical Systems under False Data Injection Attacks**.
+The codes are for comparing the estimation performance of 
+**L1 minimization without prior**, <br />
+**weighted l1 minimization with oracle**, <br />
+**weighted l1 minimization with Pruning** <br />
+
+The theorem foundation can be found in our ongoing paper: 
+**Resilient Pruning Observer Design for Cyber-Physical Systems under False Data Injection Attacks**
 
 If you use the whole codes or part of them, please cite the paper:
 ```
