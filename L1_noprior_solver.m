@@ -15,36 +15,30 @@ function error = L1_noprior_solver(H,y,x0,k)
 %% observation matrix
 [N,n] = size(H);
 
-%% find matrix F satisfying FH=0 and RIP condition
-[U,S,V] = svd(H);
-
-U1 = zeros(N,n);
-U2 = U(:,n+1:end);
-
-U_F = [U1.' ; U2.'];
-
-F = V'*S'*U_F;
-% normalize the columns
-nn = sqrt(sum(F.*conj(F),1));
-Fn = bsxfun(@rdivide,F,nn);  % nA is a matrix with normalized columns
-
-% calculate coherence
-mu_1 = max(max(triu(abs((Fn')*Fn),1)));
-delta_3k = (3*k-1)*mu_1;
-if delta_3k<=1/3
-    fprintf('F construction success\n');
-else
-    fprintf('F construction fail\n');
-end    
+% %% find matrix F satisfying FH=0 and RIP condition
+% [U,S,V] = svd(H);
+% 
+% U1 = zeros(N,n);
+% U2 = U(:,n+1:end);
+% 
+% U_F = [U1.' ; U2.'];
+% 
+% F = V'*S'*U_F;
+% % normalize the columns
+% nn = sqrt(sum(F.*conj(F),1));
+% Fn = bsxfun(@rdivide,F,nn);  % nA is a matrix with normalized columns
+% 
+% % calculate coherence
+% mu_1 = max(max(triu(abs((Fn')*Fn),1)));
+% delta_3k = (3*k-1)*mu_1;
+% if delta_3k<=1/3
+%     fprintf('F construction success\n');
+% else
+%     fprintf('F construction fail\n');
+% end    
 
 
 %% linear programming to solve the l1-minimization
-% opts = optimset('linprog');
-% set( opts, 'TolFun', 1e-12 );
-% e = linprog(ones(N,1),[],[],F,F*y,zeros(1,N),[],[],opts);
-% e = linprog(ones(N,1),[],[],F,F*y,zeros(1,N),[]);
-% x00 = (H'*H)\H'*y;
-% e = linprog(ones(N,1),-eye(N,N),(y-H*x00)',[],[],(y-H*x00)',[]);
 
 f = [zeros(1,n) ones(1,N)];
 A = [H -eye(N,N);

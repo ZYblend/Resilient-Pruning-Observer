@@ -1,4 +1,4 @@
-function q_eta_hat = pruning_algorithm(q,Tr)
+function [q_eta_hat,q_hat] = pruning_algorithm(q,Tr)
 % function q_eta_hat = pruning_algorithm(I_attack)
 % Description:
 %              This function is to implement pruning algorithm based on
