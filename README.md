@@ -9,16 +9,15 @@ The theorem foundation can be found in our ongoing paper: <br />
 
 If you use the whole codes or part of them, please cite the paper:
 ```
-@proceeding{Yu2020resilient,
+@INPROCEEDINGS{Yu2021resilient,
   author={Zheng, Yu and Anubi, Olugbenga Moses},
-  title= "{Resilient Pruning Observer Design for Cyber-Physical Systems under False Data Injection Attacks}",
-  series = {},
+  booktitle={2021 American Control Conference (ACC)}, 
+  title={Attack-Resilient Weighted L1 Observer with Prior Pruning}, 
+  year={2021},
   volume={},
   number={},
   pages={},
-  year={2020},
-  publisher={}
-}
+  doi={}
 ```
 
 Any question about the paper, please contact Yu Zheng (*yz19b@fsu.edu*), Dr.Anubi (*anubi@fsu.edu*).
