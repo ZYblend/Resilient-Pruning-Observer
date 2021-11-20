@@ -1,8 +1,8 @@
 # Introduction
 The codes are for comparing the estimation performance of <br />
 **L1 minimization without prior**, <br />
-**weighted l1 minimization with oracle**, <br />
-**weighted l1 minimization with Pruning** <br />
+**weighted l1 minimization with prior**, <br />
+**weighted l1 minimization with prior Pruning** <br />
 
 The theorem foundation can be found in our ongoing paper: <br />
 **Resilient Pruning Observer Design for Cyber-Physical Systems under False Data Injection Attacks**
