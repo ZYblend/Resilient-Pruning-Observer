@@ -22,6 +22,10 @@ If you use the whole codes or part of them, please cite the paper:
 
 Any question about the paper, please contact Yu Zheng (*yz19b@fsu.edu*), Dr.Anubi (*anubi@fsu.edu*).
 
+# Simulation results
+![resilient_power_system](https://user-images.githubusercontent.com/36635562/153718519-f1f62007-b2bb-4d9e-beac-b286e2a3b3dc.png)
+
+
 # Entrance:
 ## total_simulation.m
 post-processing entrance
