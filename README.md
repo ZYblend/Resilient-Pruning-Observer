@@ -1,27 +1,31 @@
 # Introduction
 The codes are for comparing the estimation performance of <br />
 **L1 minimization without prior**, <br />
-**weighted l1 minimization with oracle**, <br />
-**weighted l1 minimization with Pruning** <br />
+**weighted l1 minimization with prior**, <br />
+**weighted l1 minimization with prior Pruning** <br />
 
 The theorem foundation can be found in our ongoing paper: <br />
 **Resilient Pruning Observer Design for Cyber-Physical Systems under False Data Injection Attacks**
 
 If you use the whole codes or part of them, please cite the paper:
 ```
-@proceeding{Yu2020resilient,
+@INPROCEEDINGS{Yu2021resilient,
   author={Zheng, Yu and Anubi, Olugbenga Moses},
-  title= "{Resilient Pruning Observer Design for Cyber-Physical Systems under False Data Injection Attacks}",
-  series = {},
+  booktitle={2021 American Control Conference (ACC)}, 
+  title={Attack-Resilient Weighted L1 Observer with Prior Pruning}, 
+  year={2021},
   volume={},
   number={},
   pages={},
-  year={2020},
-  publisher={}
-}
+  doi={}
 ```
 
 Any question about the paper, please contact Yu Zheng (*yz19b@fsu.edu*), Dr.Anubi (*anubi@fsu.edu*).
+
+# Simulation results
+**For the details about the comparison of our proposed pruning observer with other common resilient observer in literature, please go to this [repository](https://github.com/ZYblend/Resilient_Observers_Comparison)**
+![resilient_power_system](https://user-images.githubusercontent.com/36635562/153718519-f1f62007-b2bb-4d9e-beac-b286e2a3b3dc.png)
+
 
 # Entrance:
 ## total_simulation.m
