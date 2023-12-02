@@ -4,27 +4,26 @@ The codes are for comparing the estimation performance of <br />
 **weighted l1 minimization with prior**, <br />
 **weighted l1 minimization with prior Pruning** <br />
 
-The theorem foundation can be found in our ongoing paper: <br />
-**Resilient Pruning Observer Design for Cyber-Physical Systems under False Data Injection Attacks**
+The theorem foundation can be found in our submitted paper: <br />
+**RESILIENT STATE RECOVERY USING MEASUREMENT SUPPORT1 PRIOR**
 
 If you use the whole codes or part of them, please cite the paper:
 ```
-@INPROCEEDINGS{Yu2021resilient,
+@inproceedings{zheng2021attack,
+  title={Attack-Resilient Weighted $$\backslash$ell\_ $\{$1$\}$ $ Observer with Prior Pruning},
   author={Zheng, Yu and Anubi, Olugbenga Moses},
-  booktitle={2021 American Control Conference (ACC)}, 
-  title={Attack-Resilient Weighted L1 Observer with Prior Pruning}, 
+  booktitle={2021 American Control Conference (ACC)},
+  pages={340--345},
   year={2021},
-  volume={},
-  number={},
-  pages={},
-  doi={}
+  organization={IEEE}
+}
 ```
 
 Any question about the paper, please contact Yu Zheng (*yz19b@fsu.edu*), Dr.Anubi (*anubi@fsu.edu*).
 
 # Simulation results
-**For the details about the comparison of our proposed pruning observer with other common resilient observer in literature, please go to this [repository](https://github.com/ZYblend/Resilient_Observers_Comparison)**
-![resilient_power_system](https://user-images.githubusercontent.com/36635562/153718519-f1f62007-b2bb-4d9e-beac-b286e2a3b3dc.png)
+![image](https://github.com/ZYblend/Resilient-Pruning-Observer/assets/36635562/35fe3716-d76c-42e1-9eaa-f9d5133a6d5a)
+
 
 
 # Entrance:
